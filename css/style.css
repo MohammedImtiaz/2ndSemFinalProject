@@ -1,0 +1,268 @@
+header {
+  height: 510px;
+  box-sizing: border-box; }
+  header .himg {
+    background-image: url("../img/6.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px; }
+    header .himg div {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 600px;
+      width: 100%;
+      position: absolute;
+      color: white; }
+      header .himg div h1 {
+        font-size: 60px;
+        color: #4CAF50; }
+
+.navbar {
+  background-color: aliceblue; }
+
+.nav-cl {
+  background-color: #4CAF50; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 16px; }
+
+.form-control {
+  border-radius: 0; }
+
+.m {
+  margin-left: -35px;
+  cursor: pointer; }
+
+.nav-item {
+  margin-right: 17px; }
+
+.sec li a {
+  opacity: 0.5; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  opacity: 1; }
+
+.first .active {
+  background-color: #4CAF50; }
+
+.first .active a {
+  color: white !important; }
+
+.first a:hover:not(.ac) {
+  color: #4CAF50 !important; }
+
+.sticky-top {
+  position: sticky; }
+
+.img-l {
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+  height: 650px;
+  width: 100%;
+  margin-left: -15px; }
+
+.login {
+  margin-top: 50px; }
+  .login .form-signin {
+    max-width: 400px;
+    display: block;
+    background-color: #f7f7f7;
+    opacity: 0.9;
+    -moz-box-shadow: 0 0 3px 3px #888;
+    -webkit-box-shadow: 0 0 3px 3px #888;
+    box-shadow: 0 0 3px 3px #888;
+    border-radius: 2px; }
+  .login .main {
+    padding: 38px; }
+  .login .social-box {
+    margin: 0 auto;
+    padding: 38px;
+    border-bottom: 1px #ccc solid; }
+  .login .social-box a {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px; }
+  .login .social-box a i {
+    font-weight: bold;
+    font-size: 20px; }
+  .login .heading-desc {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 38px 38px 0px 38px; }
+  .login .form-signin .form-signin-heading,
+  .login .form-signin .checkbox {
+    margin-bottom: 10px; }
+  .login .form-signin .checkbox {
+    font-weight: normal; }
+  .login .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: 20px;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .login .form-signin .form-control:focus {
+    z-index: 2; }
+  .login .form-signin input[type="text"] {
+    margin-bottom: 10px;
+    border-radius: 5px; }
+  .login .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-radius: 5px; }
+  .login .login-footer {
+    background: #f0f0f0;
+    margin: 0 auto;
+    border-top: 1px solid #dadada;
+    padding: 20px; }
+  .login .login-footer .left-section a {
+    font-weight: bold;
+    color: #8a8a8a;
+    line-height: 19px; }
+  .login .mg-btm {
+    margin-bottom: 20px; }
+
+.car {
+  overflow: hidden; }
+  .car img {
+    height: 575px;
+    object-fit: cover; }
+
+#about {
+  margin-top: 100px;
+  overflow: hidden;
+  color: #4CAF50; }
+  #about p {
+    font-size: 18px;
+    color: black;
+    text-align: justify; }
+  #about img {
+    height: 350px; }
+
+.pt-100 {
+  padding-top: 80px; }
+  .pt-100 i:hover {
+    cursor: pointer;
+    color: #4CAF50; }
+
+.section-title {
+  margin-bottom: 60px;
+  color: #4CAF50; }
+
+.section-title p {
+  color: #777;
+  font-size: 16px; }
+
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 600; }
+
+.section-title h4:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #4CAF50;
+  bottom: 0;
+  left: 50%;
+  margin-left: -30px; }
+
+.section-title h4:after {
+  position: absolute;
+  background-color: #4CAF50;
+  content: "";
+  width: 10px;
+  height: 10px;
+  bottom: -4px;
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 50%; }
+
+.single-team img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover; }
+
+.single-team {
+  position: relative; }
+
+.team-hover {
+  background-color: #222;
+  color: #fff;
+  position: absolute;
+  bottom: -107px;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  -webkit-transition: .4s;
+  transition: 0.4s; }
+
+.team-hover h4 {
+  font-size: 20px;
+  text-transform: capitalize; }
+
+.team-hover h4 span {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px 0; }
+
+.team-hover a {
+  display: inline-block;
+  color: #fff;
+  padding: 0 5px; }
+
+.single-team:hover .team-hover {
+  bottom: 0; }
+
+.single-team {
+  overflow: hidden; }
+
+#ourfood {
+  margin-top: -20px; }
+  #ourfood .img1 {
+    position: relative;
+    top: 150px;
+    left: -30px; }
+  #ourfood img:hover {
+    cursor: pointer; }
+
+#download {
+  height: 300px;
+  background-color: #4CAF50;
+  margin-top: 80px;
+  color: white; }
+  #download h2 {
+    padding-top: 80px; }
+  #download p {
+    padding-bottom: 10px; }
+
+@media only screen and (max-width: 770px) {
+  #download {
+    height: 800px; }
+    #download img {
+      margin: 10px;
+      display: inline; }
+
+  #about {
+    padding: 10px; }
+    #about img {
+      object-fit: cover; }
+    #about p {
+      text-align: justify;
+      padding: 10px; }
+
+  .single-team {
+    margin-top: 10px; } }
+body {
+  font-family: poppins,sans-serif;
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=style.css.map */

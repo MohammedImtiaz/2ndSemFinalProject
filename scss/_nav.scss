@@ -1,0 +1,48 @@
+.navbar{
+	background-color: aliceblue;
+}
+.nav-cl
+{
+	background-color: $nav;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+	font-size: 16px;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+.m {
+	margin-left: -35px;
+	cursor: pointer;
+}
+
+.nav-item {
+	margin-right: 17px;
+}
+
+.sec li a {
+	opacity: 0.5;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: white;
+	opacity: 1;
+}
+.first .active {
+	background-color: $nav;
+}
+
+.first .active a {
+	color: white !important;
+}
+
+.first a:hover:not(.ac) {
+	color: $nav !important;
+}
+.sticky-top{
+	position: sticky;
+}

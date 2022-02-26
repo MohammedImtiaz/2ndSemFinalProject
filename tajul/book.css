@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#000;
+}
+div {
+  padding-top: 30px;
+  padding-right: 300px;
+  padding-bottom: 300px;
+  padding-left: 300px;
+}
+h1 {
+	color:#FFF;
+}
+p {
+	color:#FFF;
+}
+form {
+	color:#FFF;
+}
+

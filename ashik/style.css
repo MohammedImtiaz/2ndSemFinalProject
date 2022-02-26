@@ -1,0 +1,42 @@
+div {
+  width: 25%;
+  height: 300px;
+  border-bottom: 2px solid #c3c3c3;
+  float: left;
+}
+
+div1 {
+  width: 74%;
+  height: 300px;
+  border-bottom: 2px solid #c3c3c3;
+  float: right;
+}
+
+div2 {
+  width: 25%;
+  height: 250px;
+  border-bottom: 2px solid #c3c3c3;
+  float: left;
+}
+
+
+div3 {
+  width: 74%;
+  height: 250px;
+  border-bottom: 2px solid #c3c3c3;
+  float: right;
+}
+
+div4 {
+  width: 74%;
+  height: 250px;
+  border-bottom: 2px solid #c3c3c3;
+  float: right;
+}
+
+div5 {
+  width: 25%;
+  height: 250px;
+  border-bottom: 2px solid #c3c3c3;
+  float: left;
+}

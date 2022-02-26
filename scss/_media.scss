@@ -1,0 +1,24 @@
+@media only screen and (max-width:770px)
+{
+	#download
+	{
+		height: 800px;
+		img {
+			margin: 10px;
+			display: inline;
+		}
+	}
+	#about{
+		padding: 10px;
+		img{
+			object-fit: cover;
+		}
+		p{
+			text-align: justify;
+			padding: 10px;
+		}
+	}
+	.single-team{
+		margin-top: 10px;
+	}
+}
